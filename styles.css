@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    text-align: center;
+    background-image: url('https://github.com/lakshmanreddy000/shopping-website-assignment/blob/main/bc.png?raw=true');
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 3px solid #ede6e6;
+}
+
+.shop-kart {
+    font-size: 44px;
+    font-weight: bold;
+    color: rgb(181, 50, 50);
+}
+
+.right-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.wishlist,
+.bag {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(241, 237, 237);
+}
+
+
+.navbar {
+    text-align: center;
+    background-image: url('https://github.com/lakshmanreddy000/shopping-website-assignment/blob/main/bc.png?raw=true');
+    background-size: cover;
+    background-position: top center;
+    background-color: #242020;
+    color: white;
+    padding: 10px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar-list li a:hover {
+    background-color: #f0f0f0;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.navbar-list li a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-list li {
+    margin-right: 20px; 
+}
+
+.banner {
+    text-align: center;
+    background-image: url('https://github.com/lakshmanreddy000/shopping-website-assignment/blob/main/banner1.png?raw=true');
+    background-size: cover;
+    background-position: top center;
+    padding: 250px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.products {
+    padding: 20px;
+    margin: 0;
+}
+
+.filters {
+    margin-bottom: 10px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    margin: 0;
+}
+
+.product p {
+    margin: 0;
+}
+
+.product-price {
+    color: green;
+}
+
+#contact {
+    background-image: url('https://github.com/lakshmanreddy000/shopping-website-assignment/blob/main/contact.png?raw=true');
+    background-size: cover;
+    padding: 100px;
+    text-align: right;
+  }
+
+  #contact h2 {
+    
+    color: rgb(166, 171, 166);
+   
+    width: 160%;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    
+  }
+
+  #contact-form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+
+  #contact-form button[type="submit"] {
+    background-color: #bc6c0b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #contact-form button[type="submit"]:hover {
+    background-color: #b36b00;
+    align-self: flex-end;
+    cursor: pointer;
+  }
+
+.see-more-button {
+    position: absolute;
+    left: 20px; 
+    bottom: 20px; 
+    border: 2px solid #d4cfcf; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent; 
+    color: #d7d1d1; 
+    cursor: pointer;
+    z-index: 1; 
+}
+
+.product-list {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+.product-list-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.product {
+    display: inline-block;
+    margin-right: 20px; 
+    vertical-align: top;
+}
+
